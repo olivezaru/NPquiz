@@ -2,6 +2,6 @@ services:
   - type: web
     name: npquiz
     runtime: python
-    pythonVersion: "3.10.13"
+    pythonVersion: 3.10.13
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
